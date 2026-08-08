@@ -1,0 +1,7 @@
+{
+    "components": {
+        "component@pyk::Position": {"x":0, "y":0},
+        "component@pyk::Door": {},
+        "component@pyk::Door3DTag": {}
+    }
+}

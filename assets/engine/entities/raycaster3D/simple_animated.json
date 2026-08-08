@@ -1,0 +1,28 @@
+{
+    "extends": "entity@pyk::raycaster3D.image",
+    "components": {
+        "component@pyk::Texture": {"texture":"raytexture@pyk::raycaster.dave_sheet::idle"},
+        "component@pyk::SimpleAnimation": {"textures":
+            [
+                "raytexture@pyk::raycaster.dave_sheet::idle",
+                "raytexture@pyk::raycaster.dave_sheet::idle2",
+                "raytexture@pyk::raycaster.dave_sheet::idle_back",
+                "raytexture@pyk::raycaster.dave_sheet::idle_back2",
+                "raytexture@pyk::raycaster.dave_sheet::jump",
+                "raytexture@pyk::raycaster.dave_sheet::down",
+                "raytexture@pyk::raycaster.dave_sheet::walk_down",
+                "raytexture@pyk::raycaster.dave_sheet::walk_down2",
+                "raytexture@pyk::raycaster.dave_sheet::up",
+                "raytexture@pyk::raycaster.dave_sheet::walk_up",
+                "raytexture@pyk::raycaster.dave_sheet::walk_up2",
+                "raytexture@pyk::raycaster.dave_sheet::right",
+                "raytexture@pyk::raycaster.dave_sheet::walk_right",
+                "raytexture@pyk::raycaster.dave_sheet::walk_right2",
+                "raytexture@pyk::raycaster.dave_sheet::left",
+                "raytexture@pyk::raycaster.dave_sheet::walk_left",
+                "raytexture@pyk::raycaster.dave_sheet::walk_left2"
+            ],
+            "fps": 1
+        }
+    }
+}

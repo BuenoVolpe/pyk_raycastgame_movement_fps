@@ -1,0 +1,20 @@
+{
+    "type":"entype@pyk::camera3D",
+
+    "components":
+    {
+        "component@pyk::Position":{"x":22,"y":12},
+        "component@pyk::Angle":{"angle":-90},
+        "component@pyk::Direction":{},
+        "component@pyk::Camera3D":{"fov":90},
+        "component@pyk::Velocity": {"x":0, "y":0, "max_speed":[5, 5]},
+        "component@pyk::Inputs": {"inputs":["up", "down", "left", "right"]},
+        "component@pyk::MouseSentibility": {"sentibility":0.1},
+        "component@pyk::GridCollider": {"radius":0.2},
+        "component@pyk::LookingAtEntity": {},
+        "component@pyk::PlayerTag": {"USE_NORMAL_VEL_SYSTEM":true},
+        "component@pyk::CollisionTag": {},
+        "component@pyk::NoClipTag": {"NOCLIP":false},
+        "component@pyk::AngularMovementTag": {}
+    }
+}

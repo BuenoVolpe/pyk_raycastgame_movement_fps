@@ -1,0 +1,23 @@
+{
+    "window_title": "PyKaizersEngine",
+    "name": "PyK_instance",
+    "acronym": "pykinst",
+    
+    "version": "0.0.0.0",
+    
+    "base_window_size": [320,180],
+    "raysurface_size": [320,180],
+    
+    "use_raycaster":true,
+    "lock_mouse":true,
+    "visible_mouse":false,
+    "raytexture_size":16,
+    "raysurf_pos":[0,0],
+
+    "icon": "texture@pyk::kaizerthrone",
+
+    "constant_scale": 1,
+    "resize_main_surface":true
+    
+}
+

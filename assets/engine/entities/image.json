@@ -1,0 +1,6 @@
+{
+    "components": {
+        "component@pyk::Texture": {"texture":"texture@pyk::penguin::idle"},
+        "component@pyk::Position": {"x":0, "y":0}
+    }
+}

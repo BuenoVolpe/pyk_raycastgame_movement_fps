@@ -1,0 +1,30 @@
+{
+    "level": 3,
+    "can_active":true,
+    "can_active_by_hotkey":true,
+    "RES":[300, 160],
+    "output_color": [20,20,20],
+    "input_colors": {
+        "subclass": true,
+        
+        "strings": "yellow",
+        "lists": "blue",
+        "dicts": "orange",
+        "bool": "magenta",
+        "cmd": "white",
+        "separator": "cyan",
+        "worlds": "white"
+    },
+    "outline_width":2,
+    "outline_color":[0,0,0],
+    "font": "engine_default",
+    "font_size": 8,
+    "scrollbar_width":8,
+    "cursor_width":1,
+    "use_constant_scale":true,
+    "max_log_lines":99999,
+    "padding_y": 5,
+    "visible_lines": 20,
+    "padding_x": 5,
+    "line_spacing": 2
+}

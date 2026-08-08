@@ -1,0 +1,26 @@
+{
+    "type": "entype@pyk::player",
+    "components": {
+        "component@pyk::Texture": {"texture":"texture@pyk::dave_sheet::idle.blue"},
+        "component@pyk::StateAnimation": {
+            "ent_state@pyk::idle.down": {"textures":["texture@pyk::dave_sheet::idle.blue","texture@pyk::dave_sheet::idle2.blue"], "fps":2},
+            "ent_state@pyk::idle.left": {"textures":["texture@pyk::dave_sheet::left.blue"], "fps":10},
+            "ent_state@pyk::idle.right": {"textures":["texture@pyk::dave_sheet::right.blue"], "fps":10},
+            "ent_state@pyk::idle.up": {"textures":["texture@pyk::dave_sheet::idle_back.blue", "texture@pyk::dave_sheet::idle_back2.blue"], "fps":2},
+            "ent_state@pyk::moving.down": {"textures":["texture@pyk::dave_sheet::idle.blue", "texture@pyk::dave_sheet::walk_down.blue", "texture@pyk::dave_sheet::idle.blue", "texture@pyk::dave_sheet::walk_down2.blue"], "fps":4},
+            "ent_state@pyk::moving.left": {"textures":["texture@pyk::dave_sheet::left.blue", "texture@pyk::dave_sheet::walk_left.blue","texture@pyk::dave_sheet::left.blue", "texture@pyk::dave_sheet::walk_left2.blue"], "fps":4},
+            "ent_state@pyk::moving.right": {"textures":["texture@pyk::dave_sheet::right.blue", "texture@pyk::dave_sheet::walk_right.blue", "texture@pyk::dave_sheet::right.blue", "texture@pyk::dave_sheet::walk_right2.blue"], "fps":4},
+            "ent_state@pyk::moving.up": {"textures":["texture@pyk::dave_sheet::idle_back.blue", "texture@pyk::dave_sheet::walk_up.blue", "texture@pyk::dave_sheet::idle_back.blue", "texture@pyk::dave_sheet::walk_up2.blue"], "fps":4}
+        },
+        "component@pyk::States": {
+            "initial":"ent_state@pyk::idle.up", 
+            "states":[
+                "ent_state@pyk::idle.down", "ent_state@pyk::idle.left", "ent_state@pyk::idle.right", "ent_state@pyk::idle.up",
+                "ent_state@pyk::moving.down", "ent_state@pyk::moving.left", "ent_state@pyk::moving.right", "ent_state@pyk::moving.up"]},
+        "component@pyk::Position": {"x":0, "y":0},
+        "component@pyk::Velocity": {"x":0, "y":0, "max_speed":[100, 100]},
+        "component@pyk::Inputs": {"inputs":["up", "down", "left", "right"]},
+        "component@pyk::PlayerTag": {"USE_NORMAL_VEL_SYSTEM":true},
+        "component@pyk::CameraFocusTag": {"IS_ON_SCREEN_CENTER":true}
+    }
+}

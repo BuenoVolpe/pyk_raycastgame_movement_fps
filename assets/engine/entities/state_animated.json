@@ -1,0 +1,23 @@
+{
+    "components": {
+        "component@pyk::Texture": {"texture":"texture@pyk::dave_sheet::idle"},
+        "component@pyk::StateAnimation": {
+            "ent_state@pyk::idle.down": {"textures":["texture@pyk::dave_sheet::idle","texture@pyk::dave_sheet::idle2"], "fps":2},
+            "ent_state@pyk::idle.left": {"textures":["texture@pyk::dave_sheet::left", "texture@pyk::dave_sheet::right"], "fps":2},
+            "ent_state@pyk::idle.right": {"textures":["texture@pyk::dave_sheet::right", "texture@pyk::dave_sheet::left"], "fps":2},
+            "ent_state@pyk::idle.up": {"textures":["texture@pyk::dave_sheet::idle_back", "texture@pyk::dave_sheet::idle_back2"], "fps":2},
+            "ent_state@pyk::moving.down": {"textures":["texture@pyk::dave_sheet::walk_down","texture@pyk::dave_sheet::walk_down2"], "fps":2},
+            "ent_state@pyk::moving.left": {"textures":["texture@pyk::dave_sheet::walk_left","texture@pyk::dave_sheet::walk_left2"], "fps":2},
+            "ent_state@pyk::moving.right": {"textures":["texture@pyk::dave_sheet::walk_right","texture@pyk::dave_sheet::walk_right2"], "fps":2},
+            "ent_state@pyk::moving.up": {"textures":["texture@pyk::dave_sheet::walk_up","texture@pyk::dave_sheet::walk_up2"], "fps":2}
+        },
+        "component@pyk::States": {
+            "initial":{"choice":[
+                "ent_state@pyk::idle.down", "ent_state@pyk::idle.left", "ent_state@pyk::idle.right", "ent_state@pyk::idle.up",
+                "ent_state@pyk::moving.down", "ent_state@pyk::moving.left", "ent_state@pyk::moving.right", "ent_state@pyk::moving.up"]}, 
+            "states":[
+                "ent_state@pyk::idle.down", "ent_state@pyk::idle.left", "ent_state@pyk::idle.right", "ent_state@pyk::idle.up",
+                "ent_state@pyk::moving.down", "ent_state@pyk::moving.left", "ent_state@pyk::moving.right", "ent_state@pyk::moving.up"]},
+        "component@pyk::Position": {"x":0, "y":0}
+    }
+}

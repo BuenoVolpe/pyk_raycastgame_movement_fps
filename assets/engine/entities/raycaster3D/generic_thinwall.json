@@ -1,0 +1,6 @@
+{
+    "components": {
+        "component@pyk::Position": {"x":0, "y":0},
+        "component@pyk::ThinWall3DTag": {}
+    }
+}

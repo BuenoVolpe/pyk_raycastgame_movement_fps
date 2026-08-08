@@ -1,0 +1,9 @@
+{
+    "components": {
+        "component@pyk::Sprite3DTag": {},
+        "component@pyk::Texture": {"texture":"raytexture@pyk::raycaster.dave.blue"},
+        "component@pyk::Position": {"x":0, "y":0},
+        "component@pyk::Scale3D": {"scale":1},
+        "component@pyk::OffsetZ3D": {"offsetZ":0}
+    }
+}

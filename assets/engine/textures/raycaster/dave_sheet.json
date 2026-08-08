@@ -1,0 +1,132 @@
+{
+    "type": "sheet",
+    "use_colorkey":false,
+    "convert_alpha": false,
+    "sprites": {
+        "idle": {
+            "start": [0, 0],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "idle2": {
+            "start": [16, 0],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "idle_back": {
+            "start": [32, 0],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "idle_back2": {
+            "start": [48, 0],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+
+        "jump": {
+            "start": [0, 16],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        
+        "down": {
+            "start": [0, 32],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "walk_down": {
+            "start": [16, 32],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "walk_down2": {
+            "start": [32, 32],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+
+        "up": {
+            "start": [0, 48],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "walk_up": {
+            "start": [16, 48],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "walk_up2": {
+            "start": [32, 48],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+
+        "right": {
+            "start": [0, 64],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "walk_right": {
+            "start": [16, 64],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "walk_right2": {
+            "start": [32, 64],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+
+        "left": {
+            "start": [0, 80],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "walk_left": {
+            "start": [16, 80],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        },
+        "walk_left2": {
+            "start": [32, 80],
+            "size": [16, 16],
+            "use_scale_constant": true,
+            "use_colorkey_on_color_map": false,
+            "colors": ["green", "gray", "yellow", "skin", "pink", "blue"]
+        }
+
+    }
+}

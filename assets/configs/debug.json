@@ -1,0 +1,449 @@
+{
+    "textures":{
+        "subclass": true,
+        
+        "show_atlas_keys":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"list",
+            "log_color":"black",
+            
+            "list_name": "textures",
+            "list_color":"white"
+        },
+        "show_raytextures_ids":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"dict",
+            "log_color":"black",
+            
+            "dict_name": "textures",
+            "dict_color":"white"
+        }
+    },
+    "audio":{
+        "subclass": true,
+        
+        "show_atlas_keys":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"list",
+            "log_color":"black",
+            
+            "list_name": "audio",
+            "list_color":"white"
+        },
+        "show_groups_dict":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"dict",
+            "log_color":"black",
+            
+            "dict_name":"audio groups",
+            "name_color":"white"
+        },
+        "show_music_atlas_keys":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"list",
+            "log_color":"black",
+            
+            "list_name": "music",
+            "list_color":"white"
+        }
+        
+    },
+    "fonts":{
+        "subclass": true, 
+        "being_created":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+        }
+    },
+    "ecs":{
+        "subclass": true,
+
+        "clear":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+            
+        },
+        "add_component":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+            
+        },
+        "components_keys":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"list",
+            "log_color":"black",
+
+            "list_name": "ecs components",
+            "list_color":"white"
+        },
+        "world_keys":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"list",
+            "log_color":"black",
+
+            "list_name": "ecs worlds",
+            "list_color":"white"
+        },
+        "entities_loaded_in_world":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+        },
+        "entities_keys":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"list",
+            "log_color":"black",
+
+            "list_name": "ecs entities",
+            "list_color":"white"
+        },
+        "remove_component":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+            
+        },
+        "create_entity":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+            
+        },
+        "remove_entity":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+            
+        }
+    },
+    "signal_bus":{
+        "subclass": true,
+        "show_subscribed":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+        },
+        "show_unsubscribed":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black"
+        },
+        "emit":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black",
+            "ignore_signals": [
+                "signal@pyk::engine.update", "signal@pyk::pgevent", "signal@pyk::no_input"
+            ]
+        },
+        "callback_executed":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"black",
+            "ignore_signals": [
+                "signal@pyk::engine.update", "signal@pyk::pgevent"
+            ]
+        },
+        "cleaned":{
+            "subclass": true,
+            
+            "do_debug":false,
+            "show_on_console":false,
+            "show_on_overlay":false,
+            "log_type":"log",
+            "log_color":"red",
+            "ignore_signals": [
+                "signal@pyk::engine.update", "signal@pyk::pgevent"
+            ]
+        }
+    },
+    "overlay":{
+        "subclass": true,
+        
+        "coordenates": [2,2],
+        "title_padding": 3,
+        "y_padding": 9,
+        "font_size": 7,
+
+        "categorys": {
+            "subclass": true,
+            
+            "Performance": {
+                "subclass": true,
+                "order": 0,
+                "do_show": true
+            },
+            "EngineInfo": {
+                "subclass": true,
+                "order": 1,
+                "do_show": true
+            },
+            "GameInfo": {
+                "order": 2,
+                "do_show": true
+            },
+            "World": {
+                "subclass": true,
+                "order": 3,
+                "do_show": true
+            },
+            "Player": {
+                "order": 4,
+                "do_show": true
+            },
+            "LookingAt": {
+                "order": 5,
+                "do_show": true
+            },
+            "Others": {
+                "order": 16,
+                "do_show": true
+            }
+        },
+
+        "engine_version": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+
+            "name_in_overlay":"version",
+            "category":"EngineInfo",
+            "color":[255,255,255],
+            "order": 0
+        },
+        "game_version": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+
+            "name_in_overlay":"version",
+            "category":"GameInfo",
+            "color":[255,255,255],
+            "order": 0
+        },
+        "fps": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+
+            "name_in_overlay":"FPS",
+            "category":"Performance",
+            "color":[255,255,255],
+            "order": 1
+        },
+        "game_time": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"game time",
+            "category":"GameInfo",
+            "color":[255,255,255],
+            "order": 2
+        },
+        "game_ms": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"game time in ms",
+            "category":"GameInfo",
+            "color":[255,255,255],
+            "order": 3
+        },
+        "delta_time": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"delta time",
+            "category":"GameInfo",
+            "color":[255,255,255],
+            "order": 4
+        },
+        "world_name": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"world",
+            "category":"World",
+            "color":[255,255,255],
+            "order": 0
+        },
+        "entities_amount": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"entities amount",
+            "category":"World",
+            "color":[255,255,255],
+            "order": 1
+        },
+        "player_pos": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"x",
+            "category":"Player",
+            "color":[255,255,255],
+            "order": 0
+        },
+        "player_angle": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"angle",
+            "category":"Player",
+            "color":[255,255,255],
+            "order": 1
+        },
+        "player_plane": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"plane",
+            "category":"Player",
+            "color":[255,255,255],
+            "order": 2
+        },
+        "looking_at_looking_at_eid": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"eid",
+            "category":"LookingAt",
+            "color":[255,255,255],
+            "order": 0
+        },
+        "looking_at_looking_at_type": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"type",
+            "category":"LookingAt",
+            "color":[255,255,255],
+            "order": 1
+        },
+        "looking_at_looking_at_index": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"index",
+            "category":"LookingAt",
+            "color":[255,255,255],
+            "order": 2
+        },
+        "looking_at_looking_at_distance": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"distance",
+            "category":"LookingAt",
+            "color":[255,255,255],
+            "order": 3
+        }
+    }
+}

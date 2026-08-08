@@ -1,0 +1,404 @@
+{
+    "type": "sheet",
+    "use_colorkey":true,
+    "convert_alpha": false,
+    "sprites": {
+        "bricks": {
+            "start": [0, 0],
+            "size": [16, 16]
+        },
+        "stone_bricks": {
+            "start": [0, 16],
+            "size": [16, 16]
+        },
+        "cracked_stone_bricks": {
+            "start": [0, 32],
+            "size": [16, 16]
+        },
+        "mossy_stone_bricks": {
+            "start": [0, 48],
+            "size": [16, 16]
+        },
+        "chised_stone_bricks": {
+            "start": [0, 64],
+            "size": [16, 16]
+        },
+        "orange_bricks": {
+            "start": [0, 80],
+            "size": [16, 16]
+        },
+
+        "dirt": {
+            "start": [16, 0],
+            "size": [16, 16]
+        },
+        "course_dirt": {
+            "start": [16, 16],
+            "size": [16, 16]
+        },
+        "sand": {
+            "start": [16, 32],
+            "size": [16, 16]
+        },
+        "red_sand": {
+            "start": [16, 48],
+            "size": [16, 16]
+        },
+        
+        "grass_dirt": {
+            "start": [32, 0],
+            "size": [16, 16]
+        },
+        "snow_dirt": {
+            "start": [32, 16],
+            "size": [16, 16]
+        },
+        "grass": {
+            "start": [32, 32],
+            "size": [16, 16]
+        },
+        "snow": {
+            "start": [32, 48],
+            "size": [16, 16]
+        },
+        "ice": {
+            "start": [32, 64],
+            "size": [16, 16]
+        },
+        "packed_ice": {
+            "start": [32, 80],
+            "size": [16, 16]
+        },
+        "mud": {
+            "start": [32, 96],
+            "size": [16, 16]
+        },
+        "red_sandstone": {
+            "start": [48, 0],
+            "size": [16, 16]
+        },
+        "red_chised_sandstone": {
+            "start": [48, 16],
+            "size": [16, 16]
+        },
+        "red_smooth_sandstone_side": {
+            "start": [48, 32],
+            "size": [16, 16]
+        },
+        "red_smooth_sandstone": {
+            "start": [48, 48],
+            "size": [16, 16]
+        },
+        "red_smooth_chised_sandstone": {
+            "start": [48, 64],
+            "size": [16, 16]
+        },
+        "sandstone": {
+            "start": [64, 0],
+            "size": [16, 16]
+        },
+        "chised_sandstone": {
+            "start": [64, 16],
+            "size": [16, 16]
+        },
+        "smooth_sandstone_side": {
+            "start": [64, 32],
+            "size": [16, 16]
+        },
+        "smooth_sandstone": {
+            "start": [64, 48],
+            "size": [16, 16]
+        },
+        "smooth_chised_sandstone": {
+            "start": [64, 64],
+            "size": [16, 16]
+        },
+        "decorative_sandstone": {
+            "start": [64, 80],
+            "size": [16, 16]
+        },
+
+        "oak_planks": {
+            "start": [80, 0],
+            "size": [16, 16]
+        },
+        "pine_planks": {
+            "start": [80, 16],
+            "size": [16, 16]
+        },
+        "dark_oak_planks": {
+            "start": [80, 32],
+            "size": [16, 16]
+        },
+        "birch_planks": {
+            "start": [80, 48],
+            "size": [16, 16]
+        },
+        "jungle_planks": {
+            "start": [80, 64],
+            "size": [16, 16]
+        },
+        "savanna_planks": {
+            "start": [80, 64],
+            "size": [16, 16]
+        },
+        "white_planks": {
+            "start": [80, 80],
+            "size": [16, 16]
+        },
+        
+        "stone": {
+            "start": [96, 0],
+            "size": [16, 16]
+        },
+        "cobblestone": {
+            "start": [96, 16],
+            "size": [16, 16]
+        },
+        "mossy_cobblestone": {
+            "start": [96, 32],
+            "size": [16, 16]
+        },
+        "andesite": {
+            "start": [96, 48],
+            "size": [16, 16]
+        },
+        "smooth_andesite": {
+            "start": [96, 64],
+            "size": [16, 16]
+        },
+        "smooth_stone": {
+            "start": [96, 64],
+            "size": [16, 16]
+        },
+        "bordered_cobblestone": {
+            "start": [96, 80],
+            "size": [16, 16]
+        },
+        "decorative_bordered_cobblestone": {
+            "start": [96, 96],
+            "size": [16, 16]
+        },
+
+        "lamp": {
+            "start": [112, 0],
+            "size": [16, 16]
+        },
+        "lamp_off": {
+            "start": [112, 16],
+            "size": [16, 16]
+        },
+        "ocean_lamp": {
+            "start": [112, 32],
+            "size": [16, 16]
+        },
+        "glow_stone": {
+            "start": [112, 48],
+            "size": [16, 16]
+        },
+        "cry_obsidian": {
+            "start": [112, 64],
+            "size": [16, 16]
+        },
+        "chest": {
+            "start": [128, 0],
+            "size": [16, 16]
+        },
+        "chest_side": {
+            "start": [128, 16],
+            "size": [16, 16]
+        },
+        "chest_top": {
+            "start": [128, 32],
+            "size": [16, 16]
+        },
+        "web": {
+            "start": [128, 48],
+            "size": [16, 16]
+        },
+        "bookshelf": {
+            "start": [128, 64],
+            "size": [16, 16]
+        },
+
+        "shinny_iron": {
+            "start": [144, 0],
+            "size": [16, 16]
+        },
+        "shinny_gold": {
+            "start": [144, 16],
+            "size": [16, 16]
+        },
+        "old_iron": {
+            "start": [144, 32],
+            "size": [16, 16]
+        },
+        "polished_iron": {
+            "start": [144, 48],
+            "size": [16, 16]
+        },
+        "old_gold": {
+            "start": [144, 64],
+            "size": [16, 16]
+        },
+        "polished_gold": {
+            "start": [144, 80],
+            "size": [16, 16]
+        },
+        "gold": {
+            "start": [144, 96],
+            "size": [16, 16]
+        },
+        "iron": {
+            "start": [144, 112],
+            "size": [16, 16]
+        },
+
+        "oak_door": {
+            "start": [160, 0],
+            "size": [16, 16]
+        },
+        "pine_door": {
+            "start": [160, 16],
+            "size": [16, 16]
+        },
+        "dark_oak_door": {
+            "start": [160, 32],
+            "size": [16, 16]
+        },
+        "iron_door": {
+            "start": [160, 48],
+            "size": [16, 16]
+        },
+        "not": {
+            "start": [160, 64],
+            "size": [16, 16]
+        },
+
+        "white_wool": {
+            "start": [176, 0],
+            "size": [16, 16]
+        },
+        "light_gray_wool": {
+            "start": [176, 16],
+            "size": [16, 16]
+        },
+        "gray_wool": {
+            "start": [176, 32],
+            "size": [16, 16]
+        },
+        "black_wool": {
+            "start": [176, 48],
+            "size": [16, 16]
+        },
+        "red_wool": {
+            "start": [176, 64],
+            "size": [16, 16]
+        },
+        "pink_wool": {
+            "start": [176, 80],
+            "size": [16, 16]
+        },
+        "magenta_wool": {
+            "start": [176, 96],
+            "size": [16, 16]
+        },
+        "purple_wool": {
+            "start": [176, 112],
+            "size": [16, 16]
+        },
+        "dark_blue_wool": {
+            "start": [176, 128],
+            "size": [16, 16]
+        },
+        "cyan_wool": {
+            "start": [176, 144],
+            "size": [16, 16]
+        },
+        "light_blue_wool": {
+            "start": [176, 160],
+            "size": [16, 16]
+        },
+        "green_wool": {
+            "start": [176, 160],
+            "size": [16, 16]
+        },
+        "dark_green_wool": {
+            "start": [176, 176],
+            "size": [16, 16]
+        },
+        "orange_wool": {
+            "start": [176, 192],
+            "size": [16, 16]
+        },
+        "yellow_wool": {
+            "start": [176, 208],
+            "size": [16, 16]
+        },
+        "brown_wool": {
+            "start": [176, 224],
+            "size": [16, 16]
+        },
+        
+        "satured_light_gray_wool": {
+            "start": [192, 16],
+            "size": [16, 16]
+        },
+        "satured_gray_wool": {
+            "start": [192, 32],
+            "size": [16, 16]
+        },
+        "satured_red_wool": {
+            "start": [192, 48],
+            "size": [16, 16]
+        },
+        "satured_pink_wool": {
+            "start": [192, 64],
+            "size": [16, 16]
+        },
+        "rose_wool": {
+            "start": [192, 80],
+            "size": [16, 16]
+        },
+        "satured_magenta_wool": {
+            "start": [192, 96],
+            "size": [16, 16]
+        },
+        "satured_purple_wool": {
+            "start": [192, 112],
+            "size": [16, 16]
+        },
+        "satured_light_blue_wool": {
+            "start": [192, 128],
+            "size": [16, 16]
+        },
+        "marine_blue_wool": {
+            "start": [192, 144],
+            "size": [16, 16]
+        },
+        "satured_blue_wool": {
+            "start": [192, 160],
+            "size": [16, 16]
+        },
+        "satured_cyan_wool": {
+            "start": [192, 160],
+            "size": [16, 16]
+        },
+        "lime_wool": {
+            "start": [192, 176],
+            "size": [16, 16]
+        },
+        "satured_green_wool": {
+            "start": [192, 192],
+            "size": [16, 16]
+        },
+        "satured_orange_wool": {
+            "start": [192, 208],
+            "size": [16, 16]
+        },
+        "satured_yellow_wool": {
+            "start": [192, 224],
+            "size": [16, 16]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "pyk_base_version": "0.4.5.0",
+    "version": "0.5.8.0-RAY",
+    "name": "PyKaizersEngine-Raycaster",
+    "acronym": "pyk",
+    "max_delta_time_value": 1,
+    "asset_marks":{
+        "subclass": true,
+
+        "texture": "texture",
+        "raycast_texture": "raytexture",
+        "audio": "audio",
+        "debug": "debug",
+        "music": "music",
+        "audiogroup": "audiogroup",
+        "components": "component",
+        "entity": "entity",
+        "world": "world",
+        "command": "command",
+        "entity_state": "ent_state",
+        "entity_type": "entype",
+        "signal": "signal"
+    },
+    
+    "music_folder": "music",
+    "raytexture_folder": "raycaster",
+
+    "extensions":{
+        "subclass": true,
+
+        "texture": "png",
+        "font": "ttf",
+        "audio": "wav"
+    }
+}

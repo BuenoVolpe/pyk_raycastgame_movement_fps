@@ -1,0 +1,25 @@
+{
+    "type": "sheet",
+    "use_colorkey": false,
+    "convert_alpha": true,
+    "sprites": {
+        "idle": {
+            "start": [0, 0],
+            "size": [5, 5],
+            "resize": [30, 30],
+            "use_scale_constant": true
+        },
+        "walk": {
+            "start": [5, 0],
+            "size": [5, 5],
+            "resize": [30, 30],
+            "use_scale_constant": true
+        },
+        "walk2": {
+            "start": [10, 0],
+            "size": [5, 5],
+            "resize": [30, 30],
+            "use_scale_constant": true
+        }
+    }
+}

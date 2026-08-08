@@ -1,0 +1,132 @@
+{
+    "type": "sheet",
+    "use_colorkey":true,
+    "convert_alpha": true,
+    "sprites": {
+        "idle": {
+            "start": [0, 0],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green", "gray"]
+        },
+        "idle2": {
+            "start": [16, 0],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "idle_back": {
+            "start": [32, 0],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "idle_back2": {
+            "start": [48, 0],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+
+        "jump": {
+            "start": [0, 16],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        
+        "down": {
+            "start": [0, 32],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "walk_down": {
+            "start": [16, 32],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "walk_down2": {
+            "start": [32, 32],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+
+        "up": {
+            "start": [0, 48],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "walk_up": {
+            "start": [16, 48],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "walk_up2": {
+            "start": [32, 48],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+
+        "right": {
+            "start": [0, 64],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "walk_right": {
+            "start": [16, 64],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "walk_right2": {
+            "start": [32, 64],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+
+        "left": {
+            "start": [0, 80],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "walk_left": {
+            "start": [16, 80],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        },
+        "walk_left2": {
+            "start": [32, 80],
+            "size": [16, 16],
+            "use_scale_constant": false,
+            "use_colorkey_on_color_map": true,
+            "colors": ["blue", "green"]
+        }
+
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "up": "w",
+    "down": "s",
+    "left": "a",
+    "right": "d",
+
+    "interact": "e",
+    
+    "menu": "ESCAPE",
+    
+    "LMB": "LMB",
+    "RMB": "RMB",
+    "MMB": "MMB",
+    "tab": "tab",
+    
+    "fast_quit": "Lalt",
+    "active_debug_overlay": "F3",
+    "active_console": "F2",
+    "restart": "F5",
+
+    "console_pgup": "PAGEUP",
+    "console_pgdown": "PAGEDOWN"
+}
+

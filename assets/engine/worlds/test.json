@@ -1,0 +1,24 @@
+{
+    "entities":[
+        {
+            "prefab": "entity@pyk::image"
+        },
+        {
+            "prefab": "entity@pyk::state_animated"
+        },
+        {
+            "prefab": "entity@pyk::image_move"
+        },
+        {
+            "prefab": "entity@pyk::players.topdown",
+            "positions": [[0, 0]]
+        },
+        {
+            "prefab": "entity@pyk::image_move",
+            "positions": [[0, 40]],
+            "overrides": {
+                "component@pyk::Texture": {"texture":"texture@pyk::kaizer"}
+            }
+        }
+    ]
+}

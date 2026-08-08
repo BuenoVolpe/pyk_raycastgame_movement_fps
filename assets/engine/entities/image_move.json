@@ -1,0 +1,6 @@
+{
+    "extends": "entity@pyk::image",
+    "components": {
+        "component@pyk::Velocity": {"x":100, "y":0}
+    }
+}
