@@ -63,7 +63,7 @@ class EntityFactory:
                 if origin == configs.engine.acronym:
                     entity_id = f"{assetsmarks.engine.entity}::{entity_id}"
                 else:
-                    entity_id = f"{assetsmarks.engine.game}::{entity_id}"
+                    entity_id = f"{assetsmarks.game.entity}::{entity_id}"
                 #-------------------------------------#
                 self.entity_registry[entity_id] = json_path    
     #=====================================#

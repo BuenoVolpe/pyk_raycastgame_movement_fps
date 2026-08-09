@@ -401,6 +401,17 @@
             "color":[255,255,255],
             "order": 2
         },
+        "player_speed": {
+            "subclass": true,
+            
+            "do_debug":true,
+            "log_type":"overlay",
+    
+            "name_in_overlay":"speed",
+            "category":"Player",
+            "color":[255,255,255],
+            "order": 3
+        },
         "looking_at_looking_at_eid": {
             "subclass": true,
             

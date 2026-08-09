@@ -21,6 +21,7 @@ class Sprites3DSystem:
         if not self.do_render:
             return
         #================================#
+        sprites_list = globalclasses.RaycasterRenderer.map.sprites_list
         for entity, (pos, tex, scale, offsetZ, tag) in globalclasses.World.query(Position, Texture, Scale3D, OffsetZ3D, Sprite3DTag):
             #--------------------------------#
             sprites_list = globalclasses.RaycasterRenderer.map.sprites_list

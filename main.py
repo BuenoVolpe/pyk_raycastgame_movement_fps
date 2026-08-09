@@ -10,7 +10,7 @@ from game.main.render import Render
 #=====================================#
 from engine.raycaster3D.constants import worldMap
 #=====================================#
-from engine.comands.all import *
+from engine.commands.all import *
 from engine.console import console
 #=====================================#
 from engine.utils.debug_log import debug_log
@@ -91,7 +91,7 @@ class Main:
         globalclasses.signal_bus = signal_bus
         globalclasses.engine = self
         #=====================================#
-        self.world_factory.load_world(f"{assetsmarks.engine.world}::raycaster3D.test")
+        self.world_factory.load_world(f"{assetsmarks.game.world}::test")
         # self.entity_factory.create_entity(f"{assetsmarks.engine.entity}::raycaster3D.camera")
         # self.entity_factory.create_entity(f"{assetsmarks.engine.entity}::image_random")
         # self.entity_factory.create_entity(f"{assetsmarks.engine.entity}::image_move")
@@ -142,9 +142,13 @@ class Main:
         debug_overlay.watch(
             f"{assetsmarks.engine.debug}::overlay.player_plane",
             lambda: (
-                f"x:{self.world.get_player()[1].get("Camera3D").plane.x:.1f}, {self.world.get_player()[1].get("Camera3D").plane.y:.1f}"
+                f"x:{self.world.get_player()[1].get("Camera3D").plane.x:.1f}, y:{self.world.get_player()[1].get("Camera3D").plane.y:.1f}"
                 if self.world.get_player()[1].get("Camera3D") else None
             )
+        )
+        debug_overlay.watch(
+            f"{assetsmarks.engine.debug}::overlay.player_speed",
+            lambda: f"x:{self.world.get_player()[1].get("Velocity").x:.1f}, y:{self.world.get_player()[1].get("Velocity").y:.1f}, max:{self.world.get_player()[1].get("Velocity").max[0]:.1f}"
         )
         #-------------------------------------#
         pg.event.set_grab(configs.game.lock_mouse)

@@ -1,4 +1,4 @@
-from game.ecs.components.all import Inputs, PlayerTag, Velocity
+from engine.ecs.components.all import Inputs, PlayerTag, Velocity
 from engine.utils.scaler import scaler
 from engine.configs.configs import configs
 #--------------------------------#

@@ -107,6 +107,9 @@ class WorldFactory:
                     .replace("/", ".")
                 )
                 #-------------------------------------#
-                world_id = f"{assetsmarks.engine.world}::{world_id}"
+                if origin == configs.engine.acronym:
+                    world_id = f"{assetsmarks.engine.world}::{world_id}"
+                elif origin == configs.game.acronym:
+                    world_id = f"{assetsmarks.game.world}::{world_id}"
                 #-------------------------------------#
                 self.world_registry[world_id] = json_path

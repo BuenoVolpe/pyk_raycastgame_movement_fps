@@ -7,3 +7,4 @@ from engine.ecs.components.colliders import *
 from engine.ecs.components.inputs import *
 from engine.ecs.components.rotation import *
 from engine.ecs.components.visual import *
+from game.ecs.components.all import *

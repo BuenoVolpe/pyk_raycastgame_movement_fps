@@ -1,0 +1,67 @@
+{
+    "entities":[
+        {
+            "prefab": "entity@pykinst::player"
+        },
+        {
+            "prefab": "entity@pyk::raycaster3D.image",
+            "positions": [[18.5, 12.5]]
+        },
+        {
+            "prefab": "entity@pyk::raycaster3D.simple_animated",
+            "positions": [[18.5, 11.5]]
+        }
+    ],
+    "map_info":{
+        "grid":[
+            [8,8,8,8,8,8,8,8,8,8,8,4,4,6,4,4,6,4,6,4,4,4,6,4],
+            [8,0,0,0,0,0,0,0,0,0,8,4,0,0,0,0,0,0,0,0,0,0,0,4],
+            [8,0,3,3,0,0,0,0,0,8,8,4,0,0,0,0,0,0,0,0,0,0,0,6],
+            [8,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6],
+            [8,0,3,3,0,0,0,0,0,8,8,4,0,0,0,0,0,0,0,0,0,0,0,4],
+            [8,0,0,0,0,0,0,0,0,0,8,4,0,0,0,0,0,6,6,6,0,6,4,6],
+            [8,8,8,8,0,8,8,8,8,8,8,4,4,4,4,4,4,6,0,0,0,0,0,6],
+            [7,7,7,7,0,7,7,7,7,0,8,0,8,0,8,0,8,4,0,4,0,6,0,6],
+            [7,7,0,0,0,0,0,0,7,8,0,8,0,8,0,8,8,6,0,0,0,0,0,6],
+            [7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,6,0,0,0,0,0,4],
+            [7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,6,0,6,0,6,0,6],
+            [7,7,0,0,0,0,0,0,7,8,0,8,0,8,0,8,8,6,4,6,0,6,6,6],
+            [7,7,7,7,0,7,7,7,7,8,8,4,0,6,8,4,8,3,3,3,0,3,3,3],
+            [2,2,2,2,0,2,2,2,2,4,6,4,0,0,6,0,6,3,0,0,0,0,0,3],
+            [2,2,0,0,0,0,0,2,2,4,0,0,0,0,0,0,4,3,0,0,0,0,0,3],
+            [2,0,0,0,0,0,0,0,2,4,0,0,0,0,0,0,4,3,0,0,0,0,0,3],
+            [1,0,0,0,0,0,0,0,1,4,4,4,4,4,6,0,6,3,3,0,0,0,3,3],
+            [2,0,0,0,0,0,0,0,2,2,2,1,2,2,2,6,6,0,0,5,0,5,0,5],
+            [2,2,0,0,0,0,0,2,2,2,0,0,0,2,2,0,5,0,5,0,0,0,5,5],
+            [2,0,0,0,0,0,0,0,2,0,0,0,0,0,2,5,0,5,0,5,0,5,0,5],
+            [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5],
+            [2,0,0,0,0,0,0,0,2,0,0,0,0,0,2,5,0,5,0,5,0,5,0,5],
+            [2,2,0,0,0,0,0,2,2,2,0,0,0,2,2,0,5,0,5,0,0,0,5,5],
+            [2,2,2,2,1,2,2,2,2,2,2,1,2,2,2,5,5,5,5,5,5,5,5,5]
+        ],
+        "floorDefaultTex1":"raytexture@pyk::raycaster.mine::bricks",
+        "floorDefaultTex2":"raytexture@pyk::raycaster.mine::orange_bricks",
+        "ceilDefaultTex":"raytexture@pyk::raycaster.mine::pine_planks",
+
+        "thin_walls":[
+            {"x":20.5, "y":2, "direction":0, "length":1, "texture":"raytexture@pyk::raycaster.mine::lamp_off", "collision":true, "eid":-1},
+            {"x":19.5, "y":2, "direction":1, "length":0.5, "texture":"raytexture@pyk::raycaster.mine::lamp", "collision":true, "eid":"entity@pyk::raycaster3D.generic_thinwall"}
+        ],
+        "doors":[
+            {"x":20.5, "y":6.5, "direction":0, "length":1, "texture":"raytexture@pyk::raycaster.mine::pine_door", "offset":0, "speed":1, "open_state":"closed", "has_jamb":true, "jamb_texture":"raytexture@pyk::raycaster.mine::pine_planks", "eid":-1}
+        ],
+        "sprites":[
+            {"x":20.5, "y":11.5,"texture":"raytexture@pyk::raycaster.dave", "scale":1, "offsetZ":0, "eid":-1}
+         ]
+    },
+    "mapping":{
+        "1": "raytexture@pyk::raycaster.mine::cobblestone",
+        "2": "raytexture@pyk::raycaster.mine::mossy_cobblestone",
+        "3": "raytexture@pyk::raycaster.mine::bordered_cobblestone",
+        "4": "raytexture@pyk::raycaster.mine::smooth_stone",
+        "5": "raytexture@pyk::raycaster.mine::decorative_bordered_cobblestone",
+        "6": "raytexture@pyk::raycaster.mine::smooth_andesite",
+        "7": "raytexture@pyk::raycaster.mine::smooth_sandstone_side",
+        "8": "raytexture@pyk::raycaster.mine::bordered_cobblestone"
+    }
+}

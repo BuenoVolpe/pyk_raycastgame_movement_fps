@@ -3,7 +3,7 @@
     "name": "PyK_instance",
     "acronym": "pykinst",
     
-    "version": "0.0.0.0",
+    "version": "0.0.1.0",
     
     "base_window_size": [320,180],
     "raysurface_size": [320,180],

@@ -1,0 +1,4 @@
+{
+    "type":"entype@pykinst::player",
+    "extends":"entity@pyk::raycaster3D.camera"
+}
